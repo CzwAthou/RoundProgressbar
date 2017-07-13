@@ -34,23 +34,36 @@
             app:endText="哈哈"
             app:progressBgColor="#99969696"
             app:progressColor="#72c970"
-            app:stroke_width="4"
-            app:max ="10"
+            app:stroke_width="8"
+            app:max ="20"
             app:textColor="#ffffff"
             app:textSize="12sp" />
 
-        <com.athou.roundpb.RoundProgressBar
+        <com.athou.roundpb.TimeProgress
             android:id="@+id/duration_progress3"
             android:layout_width="150dp"
             android:layout_height="20dp"
             android:layout_below="@id/duration_progress"
             android:layout_centerInParent="true"
             android:layout_marginTop="10dp"
-            app:endText="哈哈"
             app:progressBgColor="#99969696"
             app:progressColor="#72c970"
-            app:stroke_width="2"
+            app:stroke_width="4"
             app:max ="60"
+            app:textColor="#ffffff"
+            app:textSize="12sp" />
+
+        <com.athou.roundpb.PercentProgress
+            android:id="@+id/duration_progress4"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/duration_progress"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            app:progressBgColor="#99969696"
+            app:progressColor="#72c970"
+            app:stroke_width="4"
+            app:max ="20"
             app:textColor="#ffffff"
             app:textSize="12sp" />
     </LinearLayout>

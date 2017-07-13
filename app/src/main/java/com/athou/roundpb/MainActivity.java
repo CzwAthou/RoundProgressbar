@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
     RoundProgressBar progressBar;
     RoundProgressBar progressBar2;
     RoundProgressBar progressBar3;
+    RoundProgressBar progressBar4;
 
     int count = 0;
     Handler mHandler = new Handler() {
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             count++;
             progressBar.setProgress(count);
             progressBar2.setProgress(count);
+            progressBar4.setProgress(count);
 
             sendEmptyMessageDelayed(0x01, 300);
         }
@@ -34,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         progressBar = (RoundProgressBar) findViewById(R.id.duration_progress);
         progressBar2 = (RoundProgressBar) findViewById(R.id.duration_progress2);
         progressBar3 = (RoundProgressBar) findViewById(R.id.duration_progress3);
+        progressBar4 = (RoundProgressBar) findViewById(R.id.duration_progress4);
 
         progressBar3.setCurProgress(50);
 
