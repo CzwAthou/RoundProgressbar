@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextProgressBar">
+        <attr name="max" format="integer" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color|reference" />
+        <attr name="endText" format="string|reference" />
+        <attr name="progressColor" format="color|reference" />
+        <attr name="progressBgColor" format="color|reference" />
+        <attr name="stroke_width" format="integer|reference" />
+    </declare-styleable>
+</resources>

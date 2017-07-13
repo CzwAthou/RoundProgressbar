@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.athou.roundpb.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <com.athou.roundpb.RoundProgressBar
+            android:id="@+id/duration_progress"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            app:endText="成功"
+            app:progressBgColor="#99969696"
+            app:progressColor="#c75f5f"
+            app:stroke_width="2"
+            app:max ="20"
+            app:textColor="#ffffff"
+            app:textSize="12sp" />
+
+        <com.athou.roundpb.RoundProgressBar
+            android:id="@+id/duration_progress2"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/duration_progress"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            app:endText="哈哈"
+            app:progressBgColor="#99969696"
+            app:progressColor="#72c970"
+            app:stroke_width="4"
+            app:max ="10"
+            app:textColor="#ffffff"
+            app:textSize="12sp" />
+
+        <com.athou.roundpb.RoundProgressBar
+            android:id="@+id/duration_progress3"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/duration_progress"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            app:endText="哈哈"
+            app:progressBgColor="#99969696"
+            app:progressColor="#72c970"
+            app:stroke_width="2"
+            app:max ="60"
+            app:textColor="#ffffff"
+            app:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>
