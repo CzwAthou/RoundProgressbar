@@ -4,10 +4,10 @@ import android.content.Context;
 import android.util.AttributeSet;
 
 /**
+ * 时间progressbar
  * Created by czwathou on 2017/7/13.
  */
-
-public class TimeProgress extends RoundProgressBar{
+public class TimeProgress extends RoundProgressBar {
     public TimeProgress(Context context) {
         super(context);
     }

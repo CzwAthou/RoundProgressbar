@@ -14,9 +14,9 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
+ * 带圆角的progressbar
  * Created by czwathou on 2017/7/13.
  */
-
 public class RoundProgressBar extends View {
     private static final String TAG = RoundProgressBar.class.getSimpleName();
     private final int DEFAULT_MAX = 100;

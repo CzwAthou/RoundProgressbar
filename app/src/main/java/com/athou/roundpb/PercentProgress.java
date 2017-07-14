@@ -7,9 +7,9 @@ import android.util.AttributeSet;
 import static com.athou.roundpb.TimeProgress.formatSecondsToMMSS;
 
 /**
+ * 半分比progressbar
  * Created by czwathou on 2017/7/13.
  */
-
 public class PercentProgress extends RoundProgressBar{
     public PercentProgress(Context context) {
         super(context);
